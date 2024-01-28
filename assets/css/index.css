@@ -140,10 +140,6 @@ body {
 
 @media only screen and (max-width: 900px) {
     .nav_bar .nav_links {
-        display: none;
-    }
-
-    .nav_bar .nav_links {
         position: absolute;
         width: 50%;
         right: 0;
@@ -154,14 +150,25 @@ body {
         margin-right: 100%;
         padding-top: 2rem;
         transition: all 1s ease;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .nav_bar .nav_links ul { 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 100%;
+        width: 50%;
         height: 40%;
+        margin-bottom: 4rem;
+    }
+
+    .nav_bar .nav_links .btn {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 20%;
     }
 
     .nav_bar .btn-menu {
