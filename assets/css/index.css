@@ -159,7 +159,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 50%;
+        width: 60%;
         height: 40%;
         margin-bottom: 4rem;
     }
@@ -167,8 +167,8 @@ body {
     .nav_bar .nav_links .btn {
         display: flex;
         flex-direction: column;
-        width: 50%;
-        height: 20%;
+        width: 100%;
+        height: 15%;
     }
 
     .nav_bar .btn-menu {
@@ -179,6 +179,9 @@ body {
         margin-right: 50%;
     }
 }
+
+
+
 
 
 
