@@ -1,7 +1,13 @@
+@media only screen and (max-width: 640px) {
+    nav {
+        display: none;
+    }
 
-
-
-
+    .btn {
+        display: none;
+    }
+    
+}
 
 
 
