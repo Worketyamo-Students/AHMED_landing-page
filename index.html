@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body class="w-screen h-screen overflow-x-hidden">
     <section class="w-full h-16 flex justify-between items-center p-[16px] border-b-2">
@@ -15,8 +16,8 @@
                 <h1 class="text-3xl font-semibold">magnifico</h1>
             </a>
         </div>
-        <div class="nav_links absolute top-0 left-0 bg-blue-400 h-full w-1/2 bg-opacity-40 backdrop-blur-[2px]">
-            <ul class="mt-[4rem]">
+        <div class="nav_links px-20 absolute top-0 left-0 bg-blue-400 h-full w-1/2 bg-opacity-40 backdrop-blur-[2px] transition-all duration-1000 delay-150 ease-in-out">
+            <ul class="mt-[4rem] w-full h-[12rem] flex flex-col justify-between py-2">
                 <li>
                     <a href="#" class="flex items-center justify-between">
                         <p class="mr-[5px] mb-[5px]">Products</p>
@@ -47,11 +48,11 @@
                     </a>
                 </li>
             </ul>
-            <div class="login">
-                <a href="#">log in</a>
+            <div class="login mt-4 h-[5rem] flex flex-col justify-between">
+                <a href="#" class="text-blue-600 font-medium hover:underline">log in</a>
                 <a href="#">
                     <button class="flex bg-blue-600 py-1 px-3 rounded text-white items-center hover:scale-110 transition duration-300 hover:text-blue-600 hover:bg-white hover:shadow-lg hover:shadow-blue-600">
-                        <p class="font-semibold">Sign Up Free</p>
+                        <p class="font-semibold capitalize">Sign Up Free</p>
                         <i class='bx bx-right-arrow-alt text-xl ml-2'></i>
                     </button>
                 </a>
@@ -64,5 +65,9 @@
         </div>
     </section>
     
+
+
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>

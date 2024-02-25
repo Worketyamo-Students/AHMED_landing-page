@@ -1,0 +1,15 @@
+.nav_links {
+    margin-left: -100%;
+}
+
+@media only screen and (min-width: 801px) {
+    .btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .mobile-menu {
+        margin-left: 0;
+    }
+}
